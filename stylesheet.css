@@ -1,6 +1,10 @@
 body {
     display: block;
-    background: url("https://github.com/RhondaStark92/rhondastark92.github.io");
+    background: url("1515429728-BACKGROUND-tile.jpg");
+}
+
+container {
+    width: 950px;
 }
 
 h1 {
