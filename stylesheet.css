@@ -1,6 +1,4 @@
 body {
-    margin: auto;
-    max-width: 950px;    
     background: url("1515429728-BACKGROUND-tile.jpg");
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -8,7 +6,8 @@ body {
 }
 
 .container {
-    display: grid;
+    margin: auto;
+    max-width: 950px;    
     //margin-left: 10%;
 }
 
