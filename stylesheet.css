@@ -1,15 +1,17 @@
 body {
     display: block;
+    max-width: 900px;
     background: url("1515429728-BACKGROUND-tile.jpg");
     font: 16px Arial, Sans-Serif;
 }
 
 #container {
-    width: 950px;
+    
 }
 
 h1 {
     color: black;
+    font: 22px;
     text-align: center;
 }
 
