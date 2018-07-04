@@ -3,11 +3,11 @@ body {
     background: url("1515429728-BACKGROUND-tile.jpg");
 }
 
-container {
+#container {
     width: 950px;
 }
 
-h1 {
+.h1 {
     color: black;
     text-align: center;
 }
