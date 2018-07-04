@@ -6,7 +6,7 @@ body {
     font: 16px Arial, Sans-Serif;
 }
 
-#container {
+.container {
     margin: auto;
 }
 
