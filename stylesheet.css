@@ -6,10 +6,6 @@ body {
     margin: 0px !important;
 }
 
-.container {
-    margin: 0px auto;
-}
-
 .inner-container-image {
     background: url("myfamily.jpg"); 
     background-size: cover;
