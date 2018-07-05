@@ -12,7 +12,8 @@ body {
 
 .inner-container {
     display: grid;
-    margin: auto;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: rgba(255,255,255,.85);
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
@@ -38,5 +39,6 @@ h2 {
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
     .inner-container {
-        max-width: 65%;}
+        margin-left: 5%
+        margin-right: 5%;}
 }
