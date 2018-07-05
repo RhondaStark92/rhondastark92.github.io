@@ -38,5 +38,5 @@ h2 {
 /* MEDIA QUERIES */
 @media (min-width: 800px) {
     .inner-container {
-        max-width: 60%;}
+        max-width: 65%;}
 }
