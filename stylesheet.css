@@ -27,7 +27,6 @@ body {
 .row.equal {
     display: flex;
     display: -webkit-flex;
-    flex-wrap: wrap;
 }
 
 h1 {
