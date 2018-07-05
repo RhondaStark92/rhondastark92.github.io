@@ -10,6 +10,11 @@ body {
     margin: 0px auto;
 }
 
+.inner-container-image {
+    background: url("myfamily.jpg"); 
+    background-size: cover;
+}
+
 .inner-container {    
     display: grid;
     margin-left: 5%;
