@@ -24,6 +24,12 @@ body {
     
 }
 
+.row.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
