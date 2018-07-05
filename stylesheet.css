@@ -7,15 +7,13 @@ body {
 }
 
 .container {
-    background: url("myfamily.jpg");
-    background-size:cover;    
     margin: 0px auto;
 }
 
 .inner-container {
     display: grid;
+    max-width: 55%;
     margin: auto;
-    max-width: 1150px;
     background-color: rgba(255,255,255,.85);
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
@@ -38,3 +36,8 @@ h2 {
     text-transform: uppercase;
 }
 
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+    .inner-container {
+        max-width: 90%;}
+}
