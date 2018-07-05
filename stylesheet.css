@@ -13,6 +13,7 @@ body {
 .inner-container-image {
     background: url("myfamily.jpg"); 
     background-size: cover;
+    padding-bottom: 25%;
 }
 
 .inner-container {    
