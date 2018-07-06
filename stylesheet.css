@@ -21,21 +21,8 @@ body {
     right: 50%;
     transform: translateX(50%);
     height: 100%;
-    width: 2000px;
 }
 
-.col-right:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    left: 16px;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100vw;
-    background-color: #fdfdfd;
-}
 
 .panel {
     height: 100%;
