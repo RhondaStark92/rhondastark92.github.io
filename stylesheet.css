@@ -6,44 +6,18 @@ body {
     margin: 0px !important;
 }
 
-.container {
-    display: grid;
-    grid-gap: 5px;
+.parent {
+ //padding: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 45px;
 }
 
-.col-left:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    right: 50%;
-    transform: translateX(50%);
-    height: 100%;
+.main {
+  background: #3054be;
 }
-
-
-.panel {
-    height: 100%;
-}
-
-.inner-container-image {
-    background: url("myfamily.jpg"); 
-    background-size: cover;
-    padding-bottom: 25%;
-}
-
-.inner-container {    
-    display: grid;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgba(255,255,255,.85);
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    content-align: left;
-    padding: 25px;
-    
+.sidebar {
+  background: #ee7000;
 }
 
 h1 {
@@ -61,10 +35,15 @@ h2 {
 }
 
 /* MEDIA QUERIES */
-/*
-@media (min-width: 768px) {
-    .inner-container {
-        margin-left: 25%;
-        margin-right: 25%;}
+@media only screen and (min-width: 641px){
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-*/
+
+@media only screen and (min-width: 1025px){
+  .parent {
+    grid-template-columns: 2fr 1fr;
+  }
+}
