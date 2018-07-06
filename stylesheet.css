@@ -11,6 +11,42 @@ body {
     grid-gap: 5px;
 }
 
+.col-left, .col-right {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.col-left:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    height: 100%;
+    width: 2000px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #fafbfb;
+}
+
+.col-right:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: #fdfdfd;
+}
+
+
 .inner-container-image {
     background: url("myfamily.jpg"); 
     background-size: cover;
