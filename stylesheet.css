@@ -11,11 +11,6 @@ body {
     grid-gap: 5px;
 }
 
-.col-left, .col-right {
-    display: flex;
-    flex-direction: column;
-}
-
 .col-left:before {
     content: '';
     display: block;
