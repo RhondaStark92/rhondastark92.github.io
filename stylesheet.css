@@ -42,6 +42,9 @@ body {
     background-color: #fdfdfd;
 }
 
+.panel {
+    height: 100%;
+}
 
 .inner-container-image {
     background: url("myfamily.jpg"); 
