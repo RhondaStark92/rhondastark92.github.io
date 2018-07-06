@@ -9,6 +9,8 @@ body {
 .container {
     display: grid;
     grid-gap: 5px;
+    grid-auto-rows: minmax(300px, auto);
+
 }
 
 .inner-container-image {
