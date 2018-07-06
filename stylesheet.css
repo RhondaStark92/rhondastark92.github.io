@@ -16,7 +16,6 @@ body {
     flex-direction: column;
 }
 
-
 .col-left:before {
     content: '';
     display: block;
@@ -28,9 +27,6 @@ body {
     transform: translateX(50%);
     height: 100%;
     width: 2000px;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
-    background-color: #fafbfb;
 }
 
 .col-right:before {
