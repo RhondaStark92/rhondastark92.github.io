@@ -7,17 +7,14 @@ body {
 }
 
 .parent {
- padding: 20px;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 45px;
+    
 }
 
 .main {
-  background: #3054be;
+  background: rgba(255,255,255,.6);
 }
 .sidebar {
-  background: #ee7000;
+  background: rgba(255,255,255,.2);
 }
 
 h1 {
