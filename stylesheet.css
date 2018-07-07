@@ -11,12 +11,12 @@ body {
 
 .main {
     background: rgba(192,192,192,0.2);
-    padding: 5%;
+    padding: 25px;
 }
 
 .sidebar {
   background: rgba(192,192,192,0.4);
-  padding: 5%;
+  padding: 25px;
 }
 
 h1 {
