@@ -29,10 +29,14 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
 }
-
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
 /* MEDIA QUERIES */
 @media only screen and (min-width: 641px){
     .parent {
