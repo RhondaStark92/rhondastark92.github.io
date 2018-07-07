@@ -34,7 +34,7 @@ h2 {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 641px){
     .parent {
         display: grid;
         grid-template-columns: 1fr 2fr;
