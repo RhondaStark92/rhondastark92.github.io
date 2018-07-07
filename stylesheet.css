@@ -14,7 +14,7 @@ body {
     padding: 25px;
 }
 
-.sidebar {
+.main-content {
   background: rgba(192,192,192,0.4);
   padding: 25px;
 }
@@ -41,7 +41,7 @@ h2 {
     }
     .main {
     }
-    .sidebar {
+    .main-content {
     }
 
 }
@@ -53,7 +53,7 @@ h2 {
     .main {
         padding-left: 45%;
     }
-    .sidebar {
+    .main-content {
         padding-right: 45%;
     }
 }
