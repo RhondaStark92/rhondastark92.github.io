@@ -27,13 +27,13 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+h2, col-xs-3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
 }
-h3 {
+h3, col-xs-9 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
