@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     color: rgba(128,138,138,1);
     margin: 0px !important;
-    line-height: 1.8px;
+    line-height: 1.8;
 }
 
 .parent {
