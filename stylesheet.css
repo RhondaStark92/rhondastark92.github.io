@@ -10,12 +10,12 @@ body {
 }
 
 .main {
-    background: rgba(192,192,192,0.2);
+    background: rgba(192,192,192,0.3);
     padding: 50px;
 }
 
 .main-content {
-  background: rgba(192,192,192,0.4);
+  background: rgba(192,192,192,0.2);
   padding: 50px;
 }
 
