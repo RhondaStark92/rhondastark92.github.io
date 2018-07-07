@@ -40,8 +40,10 @@ h2 {
         grid-template-columns: 2fr 3fr;
     }
     .main {
+        padding-left: 15%;
     }
     .main-content {
+        padding-right: 15%;
     }
 
 }
