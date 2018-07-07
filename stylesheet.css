@@ -11,13 +11,13 @@ body {
 
 .main {
   background: rgba(192,192,192,0.2);
-  padding-left:45%;
+  padding-left: 5%;
   padding-right: 5%;
 }
 
 .sidebar {
   background: rgba(192,192,192,0.4);
-  padding-right: 45%;
+  padding-right: 5%;
   padding-left: 5%;
 }
 
@@ -37,22 +37,25 @@ h2 {
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 641px){
-  .parent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .main {
-      background: rgba(192,192,192,0.2);
-      padding-left: 5%;
     }
     .sidebar {
-  padding-right: 5%;
-}
+    }
 
 }
 
 @media only screen and (min-width: 1025px){
-  .parent {
-    grid-template-columns: 2fr 3fr;
-  }
+    .parent {
+        grid-template-columns: 2fr 3fr;
+    }
+    .main {
+        padding-left: 45%;
+    }
+    .sidebar {
+        padding-right: 45%;
+    }
 }
