@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     color: rgba(128,138,138,1);
     margin: 0px !important;
+    line-height: 1.8px;
 }
 
 .parent {
@@ -38,7 +39,7 @@ h3 {
     font-weight: 400;
 }
 /* MEDIA QUERIES */
-@media only screen and (min-width: 641px){
+@media only screen and (min-width: 910px){
     .parent {
         display: grid;
         grid-template-columns: 1fr 2fr;
