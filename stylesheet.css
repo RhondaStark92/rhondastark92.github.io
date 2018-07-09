@@ -46,6 +46,15 @@ h4 {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (min-width: 600px){
+    .main {
+        padding: 50px;
+    }
+    .main-content {
+        padding: 50px;
+    }
+}
+
 @media only screen and (min-width: 900px){
     .parent {
         display: grid;
