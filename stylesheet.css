@@ -12,12 +12,12 @@ body {
 
 .main {
     background: rgba(192,192,192,0.3);
-    padding: 50px;
+    padding: 25px;
 }
 
 .main-content {
   background: rgba(192,192,192,0.2);
-  padding: 50px;
+  padding: 25px;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h4 {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 901px){
+@media only screen and (min-width: 801px){
     .parent {
         display: grid;
         grid-template-columns: 1fr 2fr;
