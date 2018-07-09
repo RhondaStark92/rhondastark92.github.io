@@ -10,28 +10,20 @@ body {
 .parent {
 }
 
-.odd-row {
-    .main {
-        background: rgba(192,192,192,0.3);
-        padding: 25px;
-    }
-
-    .main-content {
-      background: rgba(192,192,192,0.2);
-      padding: 25px;
-    }
+.odd-row-left {
+    background: rgba(192,192,192,0.3);
 }
 
-.even-row {
-    .main {
-        background: rgba(192,192,192,0.35);
-        padding: 25px;
-    }
+.odd-row-right {
+    background: rgba(192,192,192,0.2);
+}
 
-    .main-content {
-      background: rgba(192,192,192,0.25);
-      padding: 25px;
-    }
+.even-row-left {
+    background: rgba(192,192,192,0.35);
+}
+
+.even-row-right {
+    background: rgba(192,192,192,0.25);
 }
 
 
