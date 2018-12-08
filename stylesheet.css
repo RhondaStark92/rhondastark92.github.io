@@ -7,6 +7,10 @@ body {
     line-height: 1.8;
 }
 
+a {
+    color: rgba(128,138,138,1);
+    font: italic;
+}
 .main {
     padding: 25px;
 }
